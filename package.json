@@ -1,0 +1,22 @@
+{
+  "name": "mobilefolk-themes-rn",
+  "version": "1.0.0",
+  "description": "themes for RN",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javis1205/mobilefolk-themes-rn.git"
+  },
+  "keywords": [
+    "mobilefolk"
+  ],
+  "author": "Javis-Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Javis1205/mobilefolk-themes-rn/issues"
+  },
+  "homepage": "https://github.com/Javis1205/mobilefolk-themes-rn#readme"
+}
