@@ -6,6 +6,9 @@
   "scripts": {
     "test": "npm test"
   },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Javis1205/mobilefolk-themes-rn.git"
@@ -13,7 +16,7 @@
   "keywords": [
     "mobilefolk"
   ],
-  "author": "Javis-Nguyen",
+  "author": "dai12051997@gmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Javis1205/mobilefolk-themes-rn/issues"
