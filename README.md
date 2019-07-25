@@ -37,8 +37,29 @@ module.exports = {
 ## Usage
 
 1. example
+create buildTheme
+```bash
+import { build } from 'mobilefolk-themes-rn';
+import { StyleSheet } from 'react-native';
+
+export const colors = {
+  transparent: 'transparent',
+  white: '#ffffff',
+  black: '#000000',
+  red: '#ee2211'
+};
+
+export const fontFamilys = {
+
+};
+
+export const buildThemes = () => build({ colors, fontFamilys }, StyleSheet);
+```
+
+call buildThemes() from root
 
 ```bash
+import {@withTheme} from 'mobilefolk-themes-rn'
 @withTheme
 export default class App extends Component<Props> {
   render() {
@@ -54,6 +75,25 @@ export default class App extends Component<Props> {
 ```
 
 2. prop cls
+
+|STYLE NAME              | STYLE OLD                         |   STYLE NEW                      |
+|----------------|-------------------------------|-----------------------------|
+|flex|flex: i (eg: flex: 1)           |flx-i (eg: flx-1)           |
+|flexDirection|flexDirection: row           |flx-row            |
+|alignItems   |alignItems:'flex-start', 'flex-end'|aifs, aife|
+|justifyContent|justifyContent:'center','space-between'|jcc,jcsb|
+|fontWeight|fontWeight: 'normal' |normal|
+|fontWeight|fontWeight: 'bold'|b|
+|fontWeight|fontWeight: '100'|fw1, fw2, ...|
+|resizeMode|resizeMode: 'cover'|rm-cover, rm-contain|
+|top|top: 20|top-20|
+|borderWidth|borderWidth:1|bdWidth-1|
+|borderBottomWidth|borderBottomWidth: 1|bdbWidth-1|
+|borderRadius|borderRadius:1|bdRadius-1|
+|fontSide|fontSide:1|f-1|
+|padding|padding:1|p-1|
+|margin|margin:1|m-1|
+....please research in `index.js`
 
 styleStatic
 
